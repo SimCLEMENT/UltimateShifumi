@@ -1,0 +1,26 @@
+header {
+  text-align: center;
+}
+
+main {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 500px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.mon-bouton {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: aqua;
+
+}
+
+.mon-bouton:hover {
+    background-color: blue;
+}
